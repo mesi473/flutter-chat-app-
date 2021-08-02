@@ -2,7 +2,7 @@ import 'package:chat_app/AddFriend.dart';
 import 'package:chat_app/ChatWidget.dart';
 import 'package:chat_app/DashBoardHome.dart';
 import 'package:chat_app/Friends.dart';
-import 'package:chat_app/Profile.dart';
+import 'package:chat_app/profile/Profile.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';

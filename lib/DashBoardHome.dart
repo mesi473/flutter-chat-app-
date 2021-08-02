@@ -636,25 +636,7 @@ class DashBoardHome extends StatelessWidget {
               ),
             ),
             Posts()
-          //   ListView(
-          //   children: [
-          //     Column(
-          //       children: [
-          //         Text("hello"),
-          //         Text("hello"),
-          //         Text("hello"),
-          //         Text("hello"),
-          //         Text("hello"),
-          //         Text("hello"),
-          //         Text("hello"),
-          //         Text("hello"),
-          //         Text("hello"),
-          //         Text("hello"),
-          //         Text("hello"),
-          //       ],
-          //     )
-          //   ],
-          // )
+          
           ], 
         ),
       ),

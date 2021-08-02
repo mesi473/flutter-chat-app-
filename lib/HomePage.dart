@@ -1,6 +1,6 @@
 import 'package:chat_app/DashBoard.dart';
 import 'package:chat_app/login/Login.dart';
-import 'package:chat_app/Register.dart';
+import 'package:chat_app/register/Register.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

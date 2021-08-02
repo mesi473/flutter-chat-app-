@@ -25,6 +25,7 @@ class _PostsState extends State<Posts> {
             physics: const ClampingScrollPhysics(),
             children: [
               GestureDetector(
+                  
                   onTap: (){
 
                   },
@@ -32,8 +33,10 @@ class _PostsState extends State<Posts> {
                     width: 410.0,
                     height: 300,
                     margin: EdgeInsets.all(10),
+                    
                     child: Stack(
                       alignment: Alignment.topCenter,
+                      
                       children: <Widget>[
                         Positioned(
                           bottom: 15.0,
@@ -97,7 +100,10 @@ class _PostsState extends State<Posts> {
                         Container(
                           decoration: BoxDecoration(
                             color: Colors.white,
-                            borderRadius: BorderRadius.circular(10),
+                            borderRadius: BorderRadius.only(
+                              topLeft: Radius.circular(50),
+                              topRight: Radius.circular(50)
+                            ),
                             boxShadow: [BoxShadow(
                               color: Colors.black26,
                               offset: Offset(0,2),
@@ -109,7 +115,10 @@ class _PostsState extends State<Posts> {
                           child: Stack(
                             children: <Widget>[
                               ClipRRect(
-                                borderRadius: BorderRadius.circular(10.0),
+                                borderRadius: BorderRadius.only(
+                                  topLeft: Radius.circular(30),
+                                  topRight: Radius.circular(30),
+                                ),
                                 child: Image(
                                   height: 180,
                                   width: 300,

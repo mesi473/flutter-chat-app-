@@ -14,6 +14,7 @@ class Post {
   });
 
   factory Post.fromJson(Map<String, dynamic> json) {
+    
     return Post(
       userId: json['userId'] as int,
       id: json['id'] as int,
